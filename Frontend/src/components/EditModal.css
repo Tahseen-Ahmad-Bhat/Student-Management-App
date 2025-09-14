@@ -1,0 +1,39 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.modalForm > input {
+  margin: 0;
+}
+
+.formBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.formBtnContainer > button {
+  margin-right: 20px;
+}

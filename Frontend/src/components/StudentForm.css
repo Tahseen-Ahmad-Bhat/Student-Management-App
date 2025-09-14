@@ -1,0 +1,45 @@
+#studentFormContainer {
+  display: flex;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 13px;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgoldenrod;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 20px;
+  background-color: darkgray;
+  border-radius: 13px;
+}
+
+input {
+  border: none;
+  height: 30px;
+  border-radius: 7px;
+  padding: 3px 6px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+  /* opacity: 0.2; */
+  color: white;
+}
